@@ -20,7 +20,7 @@ In 1998, the Adventure Works Cycles company collected a large volume of data abo
 
 This data consists of **three** files, containing data that was collected on **January 1st 1998**.     
 
-**AdvWorksCusts.csv**
+**AdvWorksCusts.csv**     
 Customer demographic data consisting of the following fields:
 
 - **CustomerID** (integer): A unique customer identifier.
@@ -57,12 +57,12 @@ Customer demographic data consisting of the following fields:
 - **TotalChildren** (integer): The total number of children the customer has.
 - **YearlyIncome** (decimal): The annual income of the customer.
 
-**AW_AveMonthSpend.csv**
+**AW_AveMonthSpend.csv**       
 Sales data for existing customers, consisting of the following fields:
 - **CustomerID** (integer): The unique identifier for the customer.
 - **AveMonthSpend** (decimal): The amount of money the customer spends with Adventure Works Cycles on average each month.
 
-**AW_BikeBuyer.csv**
+**AW_BikeBuyer.csv**     
 - Sales data for existing customers, consisting of the following fields:
 
 - **CustomerID** (integer): The unique identifier for the customer.
