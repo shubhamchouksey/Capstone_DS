@@ -71,3 +71,31 @@ Sales data for existing customers, consisting of the following fields:
 
 - **CustomerID** (integer): The unique identifier for the customer.
 - **BikeBuyer** (integer): A Boolean flag indicating whether a customer has previously purchased a bike (1) or not (0).
+
+## Steps to solve the problem
+
+### Data Exploration
+
+1. Download the [Adventure Works data]() files   
+2. Clean the data by replacing any missing values and removing duplicate rows. In this dataset, each customer is identified by a unique customer ID. The most recent version of a duplicated record should be retained.
+3. Explore the data by calculating summary and descriptive statistics for the features in the dataset, calculating correlations between features, and creating data visualizations to determine apparent relationships in the data.
+4. Based on your analysis of the customer data after removing all duplicate customer records, answer the questions below.
+
+### Classification
+
+1. Use the Adventure Works Cycles customer data you worked with in challenge 1 to create a classification model that predicts whether or not a customer will purchase a bike. The model should predict bike purchasing for new customers for whom no information about average monthly spend or previous bike purchases is available.
+2. Download the [test]() data. This data includes customer features but does not include bike purchasing or average monthly spend values.
+3. Use your model to predict the corresponding test dataset. 
+
+### Regression
+
+1. Use the Adventure Works Cycles customer data you worked with in challenge 1 and 2 to create a regression model that predicts a customer's average monthly spend. The model should predict average monthly spend for new customers for whom no information about average monthly spend or previous bike purchases is available.
+2. Download the test data. This is the same test data that you have used in classification challenge. This data includes customer features but does not include bike purchasing or average monthly spend values.
+3. Use your model to predict on the corresponding test dataset. 
+
+### Solution
+
+Download [Final_exam.ipynb]() file to see the solution of all the above three tasks mentioned.
+
+
+
